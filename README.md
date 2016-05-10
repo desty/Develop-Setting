@@ -3,11 +3,21 @@
 
 ## MAC
 
+chflags nohidden ~/Library
+
 ### Homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 #### cask
 brew install caskroom/cask/brew-cask
+
+brew cask install atom
+brew cask install google-chrome
+brew cask install iterm2
+brew cask install vagrant
+brew cask install vagrant-manager
+brew cask install virtualbox
+
 
 #### mackup
 brew install mackup
@@ -23,3 +33,8 @@ brew install vim
 
 vundle
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+#### docker
+brew install docker boot2docker
+boot2docker init
+boot2docker up
