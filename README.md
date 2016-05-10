@@ -15,5 +15,11 @@ brew install mackup
 #### zsh
 brew install zsh
 
+oh-my-zsh
+curl -L http://install.ohmyz.sh | sh
+
 #### vim
 brew install vim
+
+vundle
+git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
