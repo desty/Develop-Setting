@@ -45,7 +45,11 @@ let g:syntastic_check_on_wq = 0
 " NERD
 map <C-n> :NERDTreeToggle<CR>
 
-autocmd vimenter * NERDTree
+" Start NERDTree
+autocmd VimEnter * NERDTree
+" Go to previous (last accessed) window.
+autocmd VimEnter * wincmd p
+
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 let g:NERDTreeDirArrowExpandable = '▸'
