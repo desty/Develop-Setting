@@ -18,6 +18,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'The-NERD-Tree'
 Plugin 'itchyny/lightline.vim'
 Plugin 'Tagbar'
+Plugin 'Syntastic'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -25,3 +26,6 @@ filetype plugin indent on    " required
 
 " lightline
 set laststatus=2
+
+" tagbar
+nmap <F8> :TagbarToggle<CR>
