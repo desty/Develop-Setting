@@ -16,7 +16,12 @@ Plugin 'gmarik/Vundle.vim'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 Plugin 'The-NERD-Tree'
+Plugin 'itchyny/lightline.vim'
+Plugin 'Tagbar'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
+
+" lightline
+set laststatus=2
