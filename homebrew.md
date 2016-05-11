@@ -9,3 +9,7 @@ brew install php70
 https://github.com/philcook/brew-php-switcher
 
 brew install brew-php-switcher
+
+### phpbrew
+http://phpbrew.github.io/phpbrew/
+https://github.com/phpbrew/phpbrew
