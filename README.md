@@ -11,12 +11,14 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 #### cask
 brew install caskroom/cask/brew-cask
 
-brew cask install atom
-brew cask install google-chrome
-brew cask install iterm2
-brew cask install vagrant
-brew cask install vagrant-manager
-brew cask install virtualbox
+brew cask install atom  
+brew cask install google-chrome  
+brew cask install iterm2  
+brew cask install vagrant  
+brew cask install vagrant-manager  
+brew cask install virtualbox  
+brew cask install sourcetree  
+brew cask install docker
 
 
 #### mackup
