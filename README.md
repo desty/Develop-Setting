@@ -38,3 +38,8 @@ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 brew install docker boot2docker
 boot2docker init
 boot2docker up
+
+### App
+
+#### Vagrant Manager
+https://github.com/lanayotech/vagrant-manager/releases
