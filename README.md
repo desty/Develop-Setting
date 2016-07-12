@@ -37,9 +37,9 @@ vundle
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 #### docker
-brew install docker boot2docker
-boot2docker init
-boot2docker up
+brew install docker boot2docker  
+boot2docker init  
+boot2docker up  
 
 ### App
 
